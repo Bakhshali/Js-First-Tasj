@@ -1,0 +1,78 @@
+#bear .cards {
+  position: relative;
+}
+
+#bear .cards:hover .firshover {
+  display: block;
+}
+
+#bear .cards:hover .new {
+  display: block;
+}
+
+#bear .firshover {
+  position: absolute;
+  right: 13px;
+  top: 35px;
+  display: none;
+}
+
+#bear .firshover p {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#bear .firshover p i {
+  font-size: 15px;
+}
+
+#bear .new {
+  position: absolute;
+  left: 43px;
+  top: 35px;
+  display: none;
+  color: white;
+  background-color: #ad9d9d;
+}
+
+#bear .new p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: grey;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#bear .new p a {
+  color: white;
+  text-decoration: none;
+}
+
+#bear img {
+  width: 320PX;
+  padding: 20px;
+}
+
+#bear .text {
+  text-align: center;
+}
+
+#bear .text strong {
+  color: green;
+}
+
+#bear .text p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#bear .icons {
+  text-align: center;
+}
+
+#bear .icons i {
+  color: yellow;
+}
+/*# sourceMappingURL=style.css.map */

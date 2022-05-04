@@ -1,0 +1,78 @@
+#bear{
+         .cards{
+             position: relative;
+             &:hover .firshover{
+                 display: block;
+             }
+
+             &:hover .new{
+                 display: block;
+             }
+         }
+
+         .firshover{
+             position: absolute;
+             right: 13px;
+             top: 35px;
+             display: none;
+
+             p{
+                 background-color: green;
+                 color: white;
+                padding: 5px;
+                border-radius: 5px;
+                 i{
+                     font-size: 15px;
+                 }
+             }
+         }
+
+         .new{
+             position: absolute;
+             left: 43px;
+             top: 35px; 
+             display: none;  
+             color: white;      
+             background-color: rgb(173, 157, 157);
+             
+
+             p{
+                 position: absolute;
+                 top: 0;
+                 left: 0;
+                 background-color: grey;
+                 padding: 8px;
+                 border-radius: 10px;
+
+                 a{
+                     color: white;
+                     text-decoration: none;
+                 }
+             }
+             
+            
+         }
+
+
+       img{
+        width: 320PX;
+        padding: 20px;       
+    }    
+    .text{
+        text-align: center;
+
+        strong{
+            color: green;            
+        }
+        p{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+    }
+    .icons{
+        text-align: center;
+
+        i{
+            color: yellow;
+        }
+    }
+}
